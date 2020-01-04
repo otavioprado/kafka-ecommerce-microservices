@@ -21,6 +21,7 @@ public class LogService {
     }
 
     private void parse(ConsumerRecord<String, String> record) {
+        System.out.println("\n--------------------------------");
         System.out.println("LOG, topic -> " + record.topic());
         System.out.println(record.key());
         System.out.println(record.value());

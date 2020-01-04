@@ -25,7 +25,9 @@
         <module>service-fraud-detector</module>
         <module>service-log</module>
         <module>service-new-order</module>
+        <module>service-users</module>
         <module>common-kafka</module>
+        <module>service-http</module>
     </modules>
 
     <dependencies>
